@@ -1,0 +1,91 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wholepage {
+  color: 847777;
+  font-family: sans-serif;
+  background-color: EEEAE9;
+}
+
+/** HEADER**/
+
+
+.navbartop {
+  background-color: coral;
+  flex:auto;
+  /*width: 30em 30em;
+  margin: 2em;*/
+}
+
+.headButton {
+    width: 20em;
+    height: 3em;
+    background-color: F4F6F6;
+    margin-left: 5em;
+    display: inline;
+}
+
+.headButton:hover {
+  background-color: #D4E6F1  ;
+  width: 20em;
+  height: 3em;
+  margin-left: 5em;
+  display: inline;
+}
+
+.middlemaindiv {
+  background-color: #D4E6F1;
+  width: 30em 30em;
+  margin: .5em;
+  /*border: 2px solid F4F6F6;*/
+
+}
+.headButtonSeperator
+{
+    align-items: center;
+    width: 30em 30em;
+    height: 1.2em;
+    background-color: F4F6F6;
+    /*top: 10em;
+    left: 10em;*/
+}
+
+.ulist{
+  list-style: none;
+}
+
+/** MIDDLE**/
+.button_small_btn {
+width:5rem;
+}
+
+.nametitle {
+  color: grey;
+  font-family: sans-serif;
+}
+
+.paragraph {
+  color: grey;
+  font-family: sans-serif;
+}
+
+.ulist{
+  display:inline;
+}
+.toppic {
+width:20rem;
+-webkit-transition: filter 2s;
+}
+/** FOOTER **/
+.toppic:hover {
+width:20rem;
+filter: blur(10);
+}
+
+.wholepage {
+  color: 847777;
+  font-family: sans-serif;
+  background-color: EEEAE9;
+}
